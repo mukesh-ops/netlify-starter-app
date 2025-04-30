@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+textarea {
+  height: 100px;
+  padding: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding:20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
